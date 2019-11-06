@@ -20,5 +20,17 @@
                 "workbench.action.previousEditor"
             ]
         }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "c",
+                "<space>"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
     ]
 }
